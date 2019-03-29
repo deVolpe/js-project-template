@@ -1,7 +1,5 @@
-const app = () => {
-  console.log('Hey, hello!')
-}
+import _ from lodash;
 
-app()
 
-export default app
+const names = ['Bruce Wayne', ]
+  

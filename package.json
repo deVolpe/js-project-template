@@ -3,14 +3,11 @@
   "version": "0.2.0",
   "description": "Basic JS template",
   "main": "src/index.js",
-  "author": "Anatoli Huseu (avg.tolik@gmail.com)",
+  "author": "Vladimir Chekel (valdimir.chekel@yandex.com)",
   "license": "MIT",
   "scripts": {
-    "start": "npx babel-node ./src/index.js",
-    "lint": "npm run lint:styles && npm run lint:js",
-    "lint:js": "npx eslint ./src",
-    "lint:styles": "npx stylelint 'src/**/*.css'",
-    "test": "npx jest"
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -25,5 +22,16 @@
     "jest": "^24.1.0",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0"
-  }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deVolpe/js-project-template.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/deVolpe/js-project-template/pull"
+  },
+
+  "homepage": "https://github.com/deVolpe/js-project-template#readme"
 }
